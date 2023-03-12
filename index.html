@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <title>Event Registration Form.</title>
+  <div>
+    <h1>Event Registration</h1>
+    <form  method="POST" action="">
+      <!-- Form contents will go here -->
+      <fieldset>
+        <h3>Personal Information</h3>
+        <label for="">Event Name</label>
+        <input type="text" id="ename" required />
+        <label >Venue</label>
+        <input type="text" id="vname" required />
+        <label >Organizing Club</label>
+        <input type="text" id="orgname"  / required>
+        <label for="">Date</label>
+        <input type="date" name="" id="date" required>
+        <label for="">Ticket Price</label>
+        <input type="number" name="" id="num" required>
+    
+        
+      </fieldset>
+      <fieldset>
+        <h3>Additional Information</h3>
+        <label for="">Event Description</label>
+        <input type="text"  id="info" style="height: 100px;">
+        
+      </fieldset>
+      <button type="button" id="eventForm">Submit Form</button>
+  </div>
+  
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+<script src="javascript.js"></script>
+</html>

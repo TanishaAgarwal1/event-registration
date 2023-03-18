@@ -1,11 +1,12 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDdfwddpIpFLdiNi-15xkMgTRp4eeznkKw",
-    authDomain: "hack-2bcde.firebaseapp.com",
-    databaseURL: "https://hack-2bcde-default-rtdb.firebaseio.com",
-    projectId: "hack-2bcde",
-    storageBucket: "hack-2bcde.appspot.com",
-    messagingSenderId: "243836919454",
-    appId: "1:243836919454:web:86f3515d2baf83bdd7a58f"
+    apiKey: "AIzaSyDomBBg_pXemi1kZXr1qKRVunAYzh7yQvc",
+  authDomain: "eventbeep-7cc04.firebaseapp.com",
+  databaseURL: "https://eventbeep-7cc04-default-rtdb.firebaseio.com",
+  projectId: "eventbeep-7cc04",
+  storageBucket: "eventbeep-7cc04.appspot.com",
+  messagingSenderId: "602245976409",
+  appId: "1:602245976409:web:2fdb01b3072d9dc2f0fc48",
+  measurementId: "G-L8Q0QGZKT4"
   };
 
   // Initialize Firebase
